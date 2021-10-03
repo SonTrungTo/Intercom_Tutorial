@@ -8,11 +8,18 @@
       <script>
         window.Intercom("boot", {
             app_id: "fjd6qdpm",
-            name: "Son To", // Full name
+            name: "Darth Snowy", // Full name
             email: "son.to@leadoo.com", // Email address
             created_at: new Date() // Signup date as a Unix timestamp
         });
         window.Intercom("update");
+      </script>
+
+      <script>
+          Intercom('trackEvent', 'smalled-example', {
+              name: 'The Sith Lord',
+              description: 'Testing with script instead',
+          })
       </script>
 <head>
     <meta charset="UTF-8">
