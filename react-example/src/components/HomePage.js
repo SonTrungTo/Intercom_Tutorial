@@ -23,7 +23,7 @@ function HomePage() {
       const handleStartTour = () => startTour(123);
       const handleTrackEvent = () => trackEvent('invited-friend');
       const handleTrackEventWithMetaData = () =>
-        trackEvent('exampled-button', {
+        trackEvent('clicked-button-react', {
           name: 'Alex',
           duration: 19,
           type: 'JPEG',

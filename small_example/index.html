@@ -6,10 +6,11 @@
       </script>
 
       <script>
+        window.Intercom('shutdown');
         window.Intercom("boot", {
             app_id: "fjd6qdpm",
-            name: "Darth Snowy", // Full name
-            email: "son.to@leadoo.com", // Email address
+            name: "Jane Doe", // Full name
+            email: "abc92@gmail.com", // Email address
             created_at: new Date() // Signup date as a Unix timestamp
         });
         window.Intercom("update");
@@ -17,9 +18,12 @@
 
       <script>
           Intercom('trackEvent', 'smalled-example', {
-              name: 'The Sith Lord',
+              name: 'Marketing Analysis',
               description: 'Testing with script instead',
           })
+      </script>
+      <script>
+          console.log(Intercom('getVisitorId'));
       </script>
 <head>
     <meta charset="UTF-8">
